@@ -1,10 +1,10 @@
 import openpyxl
 
 # Открываем файл Excel
-workbook = openpyxl.load_workbook('Книга1.xlsx')
+workbook = openpyxl.load_workbook('Ваш_файл.xlsx')
 
 # Выбираем нужный лист
-sheet = workbook['Лист1']
+sheet = workbook['Имя_вашего_листа']
 
 # Создаем новый лист для обновленных данных
 updated_sheet = workbook.create_sheet('Обновленные данные')

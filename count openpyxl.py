@@ -1,10 +1,10 @@
 import openpyxl
 
 # Открываем файл Excel
-workbook = openpyxl.load_workbook('04_09_2023_г_Сводная_таблица_ИП_Чертыков_56_актов_5.xlsx')
+workbook = openpyxl.load_workbook('Ваш_файл.xlsx')
 
 # Выбираем нужный лист
-sheet = workbook['Основной список']
+sheet = workbook['Имя_вашего_листа']
 
 
 # Проходимся по каждой строке в таблице
